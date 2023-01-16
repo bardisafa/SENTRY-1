@@ -29,4 +29,4 @@ lambda_src: 1.0
 lambda_unsup: 0.1
 lambda_ent: 1.0
 
-use_cuda: False
+use_cuda: True

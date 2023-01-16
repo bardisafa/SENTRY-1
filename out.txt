@@ -1,0 +1,24 @@
+dslr->amazon-LT (natural), Before SENTRY:	 Avg. acc=60.37%	Agg. acc=60.13%
+			After SENTRY:	 Avg. acc=71.05%	Agg. acc=70.78% 
+
+
+webcam->amazon-LT (natural), Before SENTRY:	 Avg. acc=62.93%	Agg. acc=63.08%
+			After SENTRY:	 Avg. acc=73.32%	Agg. acc=73.38% 
+
+
+amazon->dslr-LT (natural), Before SENTRY:	 Avg. acc=81.06%	Agg. acc=79.12%
+			After SENTRY:	 Avg. acc=90.49%	Agg. acc=88.35% 
+
+
+amazon->webcam-LT (natural), Before SENTRY:	 Avg. acc=77.79%	Agg. acc=75.85%
+			After SENTRY:	 Avg. acc=87.39%	Agg. acc=85.66% 
+
+
+webcam->dslr-LT (natural), Before SENTRY:	 Avg. acc=98.46%	Agg. acc=98.39%
+			After SENTRY:	 Avg. acc=99.68%	Agg. acc=99.80% 
+
+
+dslr->webcam-LT (natural), Before SENTRY:	 Avg. acc=93.33%	Agg. acc=93.46%
+			After SENTRY:	 Avg. acc=98.07%	Agg. acc=97.99% 
+
+

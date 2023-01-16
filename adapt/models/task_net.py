@@ -30,7 +30,7 @@ class TaskNet(nn.Module):
         self.setup_net()        
         self.criterion = nn.CrossEntropyLoss()
 
-    def forward(self, x, reverse_grad=False):
+    def forward(self, x, with_emb=False, reverse_grad=False):
         # Extract features
         x = self.conv_params(x)
         x = x.view(x.size(0), -1)
@@ -47,8 +47,11 @@ class TaskNet(nn.Module):
             if reverse_grad: emb = utils.ReverseLayerF.apply(emb)
             if self.l2_normalize: emb = F.normalize(emb)
             score = self.classifier(emb) / self.temperature
-        
-        return score
+
+        if with_emb:
+            return score, emb
+        else:
+            return score
 
     def setup_net(self):
         """Method to be implemented in each class."""

@@ -4,7 +4,7 @@ name2benchmark = {
                     "mnist": "MNIST", "svhn": "SVHN", \
                     "real": "DomainNet", "sketch": "DomainNet", "clipart": "DomainNet", "painting": "DomainNet", \
                     "Real_World": "OfficeHome", "Product": "OfficeHome", "Clipart": "OfficeHome", "Art": "OfficeHome", \
-                    "visda_train": "VisDA2017", "visda_test": "VisDA2017"
+                    "visda_train": "VisDA2017", "visda_test": "VisDA2017",  "amazon": "Office31", "dslr": "Office31", "webcam": "Office31"
 			    }
 
 def register_dataset(name):
